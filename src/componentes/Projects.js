@@ -65,6 +65,8 @@ const Projects = () => {
                 </TextContainer>
             </ProjectContainer>  
 
+            
+
             <ProjectContainer>
                 <Icono src={Job3} alt="Register App" /> 
                 <TextContainer>
