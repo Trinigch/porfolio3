@@ -85,7 +85,7 @@ export const ContactUs = () => {
         })
         .then(
           () => {
-            console.log('SUCCESS!');
+            console.log('SUCCESS');
             setFormData({ name: '', email: '', message: '' }); // Limpiar el formulario
           },
           (error) => {
