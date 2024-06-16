@@ -49,17 +49,21 @@ const TextContainer = styled.div`
 
 const Bubble = styled(Link)`
     background: #a6eeb2;
-    padding: 20px 100px;
+   
+    padding: 20px 100px  20px  100px ;
     border-radius: 100px;
     color: #fff;
     position: absolute;
+    top:200px;
+    left:80%
     font-size: 24px;
     font-weight: 600;
     text-align: center;
     user-select: none;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    bottom: 200px; /* Adjust position as needed */
+    /* Adjust position as needed 
     left: 50%;
+    upper: 100%*/
     transform: translateX(-50%);
     opacity: 100;
     transition: opacity 0.3s ease-in-out;
