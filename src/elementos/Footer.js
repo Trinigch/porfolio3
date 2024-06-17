@@ -1,7 +1,6 @@
 import React  from "react";
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import Gitfoot from './../img/hero.jpg';
 
 const ContenedorFooter = styled.footer`
     background:  #d9f1f5;;    
@@ -29,27 +28,13 @@ const ButtonLink = styled(Link)`
     }
 `;
 
-const Titulo = styled.h1`
-       	margin-bottom: 10px;
-           font-size: 24px;
-		color: #0077b5;
-       
-   `;
+
    const SubTitulo = styled.h2`
             margin-bottom: 40px;
             font-size: 18px;
             color: #0077b5;
             `;     
-        const Iconofooter = styled.img`
-                width: 70px;
-		        height: 70px;
-		        border-radius: 70px;
-		        color: #fff;
-		        padding: 24px;
-                margin-bottom:0.25rem;
-                border-radius: 50px;
-                display: flex
-              `;
+ 
       
     const Footer = () => {
         return (      
