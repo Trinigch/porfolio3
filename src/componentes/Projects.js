@@ -65,10 +65,13 @@ const Projects = () => {
                 </TextContainer>
             </ProjectContainer>  
 
+            
+
             <ProjectContainer>
                 <Icono src={Job3} alt="Register App" /> 
                 <TextContainer>
-                    <p>This App helps you to records all your purches and organize it for categories. Check here:  <a> "https://curso-react-app-lista-ga-a835b.web.app" </a></p>
+                    <p>This App helps you to records all your purches and organize it for categories. 
+                    Check here:  <a href="https://curso-react-app-lista-ga-a835b.web.app" > https://curso-react-app-lista-ga-a835b.web.app </a></p>
                 </TextContainer>
             </ProjectContainer>  
         </AboutContainer>

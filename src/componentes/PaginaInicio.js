@@ -9,6 +9,7 @@ const AboutContainer = styled.div`
     height: 500px;
     padding: 2px 2px 2px 275px;
     margin: 2px 0;
+    position: relative; /* Added */
 `;
 
 const ImageContainer = styled.div`
@@ -50,20 +51,20 @@ const TextContainer = styled.div`
 const Bubble = styled(Link)`
     background: #a6eeb2;
     padding: 20px 100px;
-    border-radius: 100px;
     color: #fff;
+    top: 70%; /* Center vertically */
+    left: 50%;
     position: absolute;
     font-size: 24px;
     font-weight: 600;
     text-align: center;
     user-select: none;
+    transform: translate(-50%, -50%); 
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    bottom: 200px; /* Adjust position as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 100;
+    opacity: 1;
     transition: opacity 0.3s ease-in-out;
     text-decoration: none;
+    border-radius: 50px;
 
     &:hover {
         background-color: #dd55cb;
