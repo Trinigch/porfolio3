@@ -128,6 +128,7 @@ export const ContactUs = () => {
                 />
                 </div>   
                 
+                
             </FlexContainer>
             <div style={{ flex: 2}} >
                 <Label htmlFor="email"></Label>
