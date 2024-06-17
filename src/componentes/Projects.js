@@ -6,8 +6,9 @@ import Job3 from './../img/register.png'; // replace with your actual image path
 const AboutContainer = styled.div`
     display: flex;
     flex-direction: column;
-    background: #8bccfd;
-    padding: 20px 275px;
+ 
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    padding: 20px 250px;
     margin: 2px 0;
 `;
 
@@ -15,6 +16,7 @@ const ProjectContainer = styled.div`
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 `;
 
 const Icono = styled.img`
@@ -27,13 +29,13 @@ const Icono = styled.img`
 const Title = styled.h2`
     margin-bottom: 20px;
     font-size: 2.5rem;
-    color: #fff;
+    color: #000;
 `;
 
 const SubTitulo1 = styled.h2`
     margin-bottom: 20px;
     font-size: 24px;
-    color: #fdfd8b;
+    color: #0077b5;
 `;
 
 const TextContainer = styled.div`
@@ -61,7 +63,7 @@ const Projects = () => {
             <ProjectContainer>
                 <Icono src={Job2} alt="Shop Project" /> 
                 <TextContainer>
-                    <p>This e-commerce lets you show products and register purchases. Check here: <a href="https://trinigch.github.io/Shop/">https://trinigch.github.io/Shop/</a> or download <a href="https://github.com/Trinigch/Shop">https://github.com/Trinigch/Shop</a></p>
+                    <p>This e-commerce shows the products and sends them  to the cart. Check here: <a href="https://trinigch.github.io/Shop/">https://trinigch.github.io/Shop/</a> or download <a href="https://github.com/Trinigch/Shop">https://github.com/Trinigch/Shop</a></p>
                 </TextContainer>
             </ProjectContainer>  
 
@@ -70,7 +72,7 @@ const Projects = () => {
             <ProjectContainer>
                 <Icono src={Job3} alt="Register App" /> 
                 <TextContainer>
-                    <p>This App helps you to records all your purches and organize it for categories. 
+                    <p>This App helps you to record all your purchases and  organize them in categories. 
                     Check here:  <a href="https://curso-react-app-lista-ga-a835b.web.app" > https://curso-react-app-lista-ga-a835b.web.app </a></p>
                 </TextContainer>
             </ProjectContainer>  

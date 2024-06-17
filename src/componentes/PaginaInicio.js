@@ -5,7 +5,7 @@ import backgroundImage from './../img/bg.jpg'; // replace with your actual image
 
 const AboutContainer = styled.div`
     display: flex;
-    background: #8bccfd; 
+    background:#0077b5; 
     height: 500px;
     padding: 2px 2px 2px 275px;
     margin: 2px 0;
@@ -20,23 +20,23 @@ const ImageContainer = styled.div`
 `;
 
 const Title = styled.h2`
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 2.5rem;
-    color: #fd8be8;
+    color: #fff;
 `;
 
 const SubTitulo1 = styled.h2`
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     flex-direction: column;
     font-size: 24px;
-    color: #fdfd8b;
+    color: #fff;
 `;
 
 const SubTitulo = styled.h2`
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     flex-direction: column;
-    font-size: 24px;
-    color: #0077b5;
+    font-size: 30px;
+    color: #fff;
 `;
 
 const TextContainer = styled.div`
@@ -49,7 +49,7 @@ const TextContainer = styled.div`
 `;
 
 const Bubble = styled(Link)`
-    background: #a6eeb2;
+    background: #a8cee4;
     padding: 20px 100px;
     color: #fff;
     top: 70%; /* Center vertically */

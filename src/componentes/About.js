@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import backgroundImage from './../img/ToDo.jpeg'; // replace with your actual image path
 
 const Container = styled.div`
-    width: 60%;
+    width: 70%;
     padding: 2px;
     margin: 2px auto;
     border-radius: 10px;
@@ -53,13 +53,14 @@ const About = () => {
           a wide range of different technologies including, but not limited to:
           Javascript, Node.js, React, Firebase, Express, MySQL, MongoDB, HTML, and CSS.</Paragraph>
           <Paragraph> 
-          I grew up in  Buenos Aires. A  big city where I had the oportunity to graduate from 
-          the University of Buenos Aires with the master degree in Electronic Engineer.
-          In 2019 I completed Deep Learning curse/102hs at the Technological Institute ITBA. Then I moved to  the country        
+          I graduated from the University of Buenos Aires with a master degree in Electronic Engineer. I work from 2018 to 2021 as a project engineer for Conuar a nuclear factory
+          In 2019 I completed Deep Learning curse/102hs at the Technological Institute ITBA. Then I start working full time as a software developer for Epidata until march of the current year.
+          </Paragraph>
+          <Paragraph> 
+          Later I moved to  the country        
           in Brainerd, MN where I live in a farm with chickens, dairy sheeps and more,
            where there is always something to do.
           </Paragraph>
-         
             </TextContainer>
             <ImageContainer/>
         </Container>

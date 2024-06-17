@@ -8,7 +8,6 @@ import Header from './elementos/Header';
 import styled from 'styled-components';
 import Footer from  './elementos/Footer.js';
 
-
 const ContenedorPrincipal = styled.div`
       padding: 20px 20px 0px 0px;
       margin:  10px 10px 0px 0px;
@@ -23,7 +22,6 @@ const ContenedorPrincipal = styled.div`
     border-radius: 10px 10px 0 0;
     box-shadow: 5px 0px 5px rgba(129, 129, 129, 0.1);
     `;
-
 
     const App = () => {
       return (

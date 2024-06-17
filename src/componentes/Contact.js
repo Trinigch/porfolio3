@@ -6,10 +6,10 @@ import emailjs from '@emailjs/browser';
 const ContactContainer = styled.div`
     padding:  5px 5px 50px 2px;
     margin: 1px;
-    height:500px;
-    background: #99bfd3;
+    height:450px;
+    
     border-radius: 0 0px 10px 10px;
-    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 2px 2px rgba(0, 0, 0, 0.3);
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -29,7 +29,7 @@ const SubTitle = styled.p`
 const Form = styled.form`
     display: flex;
     flex-direction: row;
-    padding:  50px 50px 10px 50px;
+    padding:  0px 50px 10px 50px;
     width: 100%;
     max-width: 500px;
     margin-bottom:5px;

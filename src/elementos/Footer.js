@@ -40,7 +40,7 @@ const ButtonLink = styled(Link)`
         return (      
         <> <ContenedorFooter >      
             <ButtonLink to="/contact" > Contact me   </ButtonLink>
-            <SubTitulo>~  Talk me about your projects ~ </SubTitulo> 
+            <SubTitulo>~  Tell me about your projects ~ </SubTitulo> 
            
                  
             </ContenedorFooter>   
