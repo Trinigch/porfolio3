@@ -53,8 +53,10 @@ const About = () => {
           a wide range of different technologies including, but not limited to:
           Javascript, Node.js, React, Firebase, Express, MySQL, MongoDB, HTML, and CSS.</Paragraph>
           <Paragraph> 
-          I graduated from the University of Buenos Aires with a master degree in Electronic Engineer. I work from 2018 to 2021 as a project engineer for Conuar a nuclear factory
-          In 2019 I completed Deep Learning curse/102hs at the Technological Institute ITBA. Then I start working full time as a software developer for Epidata until march of the current year.
+          I graduated from the University of Buenos Aires with a master degree in Electronic Engineer. 
+          I worked from 2018 to 2021 as a Project Engineer for a nuclear fuel factory, Conuar SA.
+          In 2019 I completed Deep Learning curse/102hs at the Technological Institute ITBA.
+          Then I  worked  as a Full Stack Web Developer for Epidata until the current year.
           </Paragraph>
           <Paragraph> 
           Later I moved to  the country        

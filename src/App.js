@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from './componentes/PaginaInicio.js';
 import About from './componentes/About.js';
 import Projects from './componentes/Projects.js';
-import Contact from './componentes/Contact.js';
+import ContactUs from './componentes/Contact.js';
 import Header from './elementos/Header';
 import styled from 'styled-components';
 import Footer from  './elementos/Footer.js';
@@ -32,9 +32,9 @@ const ContenedorPrincipal = styled.div`
                           <Header />
                           <Routes>
                               <Route path="/" element={<Home />} />
-                              <Route path="/about" element={<About />} />
+                              <Route path="/About" element={<About />} />
                               <Route path="/projects" element={<Projects />} />
-                              <Route path="/contact" element={<Contact />} />
+                              <Route path="/Contact" element={<ContactUs />} />
                           </Routes>
                       <Footer />
                       </Main>

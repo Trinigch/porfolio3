@@ -7,7 +7,6 @@ const ContactContainer = styled.div`
     padding:  5px 5px 50px 2px;
     margin: 1px;
     height:450px;
-    
     border-radius: 0 0px 10px 10px;
     box-shadow: 0 4px 2px 2px rgba(0, 0, 0, 0.3);
     display: flex;
@@ -78,7 +77,6 @@ export const ContactUs = () => {
   
     const sendEmail = (e) => {
       e.preventDefault();
-  
       emailjs
         .sendForm('service_d8ezhy7', 'template_3alafqd', form.current, {
           publicKey: 'GbZqgE6bPlxyMYKCX',
@@ -115,7 +113,7 @@ export const ContactUs = () => {
         <SubTitle> Feel free to contact me if there's any projects you need help with! </SubTitle>
         <Form ref={form} onSubmit={sendEmail}>
             <FlexContainer>
-                <div style={{ flex: 1 , marginLeftt: '20px'}}>
+                <div style={{ flex: 1 }}>
                 <Label htmlFor="name"></Label>
                 <Input
                     type="text"
@@ -126,10 +124,9 @@ export const ContactUs = () => {
                     onChange={handleChange}
                     required
                 />
-                </div>   
-                
-            </FlexContainer>
-            <div style={{ flex: 2}} >
+                </div>    
+               
+            <div style={{ flex: 1}} >
                 <Label htmlFor="email"></Label>
                 <Input
                     type="email"
@@ -140,8 +137,8 @@ export const ContactUs = () => {
                     onChange={handleChange}
                     required
                 />
-                </div>
-                </Form>      
+                </div>   
+                <div style={{  flex: 1 , marginTop: '80px ' , marginLeft: '-500px'}}>
                 <Label htmlFor="message"></Label>
                 <Textarea
                     id="message"
@@ -152,7 +149,9 @@ export const ContactUs = () => {
                     required
                 />
                 <Button type="submit">Send Message</Button>
-          
+                </div>
+                </FlexContainer>
+                </Form>
         </ContactContainer>
     );
 }
